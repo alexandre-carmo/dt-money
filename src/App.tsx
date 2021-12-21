@@ -1,10 +1,14 @@
+import { Dashboard } from "./components/Dashboard";
+import { Header } from "./components/Header";
+
 import { GlobalSyle } from "./styles/global"
 
 export function App() {
   return (
-    <div className="App">
+    <>
       <GlobalSyle />
-      <h1>Hello World</h1>
-    </div>
+      <Header />
+      <Dashboard />
+    </>
   );
 }
